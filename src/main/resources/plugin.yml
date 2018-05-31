@@ -1,0 +1,8 @@
+name: ${project.artifactId}
+main: com.mcmiddleearth.mcmechat.ChatPlugin
+version: ${project.version}
+author: Eriol_Eandur
+load: STARTUP
+softdepend: [Tab]
+depend: [Essentials]
+
