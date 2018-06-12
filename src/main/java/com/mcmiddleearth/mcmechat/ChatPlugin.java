@@ -19,7 +19,9 @@ package com.mcmiddleearth.mcmechat;
 import com.mcmiddleearth.mcmechat.listener.AfkListener;
 import java.util.logging.Logger;
 import lombok.Getter;
+import me.lucko.luckperms.LuckPerms;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.ChatColor;
 
 /**
  *
@@ -30,14 +32,25 @@ public class ChatPlugin extends JavaPlugin{
     @Getter
     static JavaPlugin instance;
     
+    @Getter
+    static boolean luckPerms = false;
+    
     @Override
     public void onEnable() {
         /*Essentials ess = (Essentials) Bukkit.getPluginManager().getPlugin("Essentials");
         User user = ess.getUser("Eriol_Eandur");
         user.isAfk();*/
         this.saveDefaultConfig();
+        if(getConfig().getBoolean("useLuckPerms")) {
+            try {
+                LuckPerms.getApi();
+                luckPerms = true;
+            } catch(IllegalStateException e) {
+                Logger.getGlobal().info("LuckPerms not found, using permission attachments.");
+            }
+        }
         getServer().getPluginManager().registerEvents(new AfkListener(), this);
-Logger.getGlobal().info("AfkListener registered.");
+//Logger.getGlobal().info("AfkListener registered.");
         instance = this;
     }
     
