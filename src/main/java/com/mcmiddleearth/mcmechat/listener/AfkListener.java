@@ -22,7 +22,6 @@ import com.mcmiddleearth.mcmechat.util.TabUtil;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
-import java.util.logging.Logger;
 import me.lucko.luckperms.LuckPerms;
 import me.lucko.luckperms.api.DataMutateResult;
 import me.lucko.luckperms.api.LuckPermsApi;
@@ -49,6 +48,7 @@ public class AfkListener implements Listener{
     public void afkStatusChange(AfkStatusChangeEvent event) {
 //Logger.getGlobal().info("value: "+event.getValue());
 //event.getAffected().getBase().sendMessage("value: "+event.getValue());
+//Logger.getGlobal().info("LuckPerms found: "+ChatPlugin.isLuckPerms());
         if(event.getValue()) {
             setAfk(event.getAffected().getBase());
         } else {
@@ -89,7 +89,6 @@ public class AfkListener implements Listener{
     }
     
     private static void setAfkLuckPerms(Player player) {
-Logger.getGlobal().info("setAfkLuckPerms");
         LuckPermsApi lpApi = LuckPerms.getApi();
         Node afkNode = lpApi.buildNode(ChatPlugin.getTabColorPermission()
                                        +TabUtil.getTabColor(ChatPlugin.getAfkColor()))
@@ -100,41 +99,24 @@ Logger.getGlobal().info("setAfkLuckPerms");
         if(user == null) {
             return;
         }
-Logger.getGlobal().info("found user: "+player.getName());
         DataMutateResult result = user.setPermission(afkNode);
-/*Logger.getGlobal().info(afkNode.getPermission()+": "+result.name());
-Logger.getGlobal().info("global: "+afkNode.appliesGlobally());
-Logger.getGlobal().info("override: "+afkNode.isOverride());
-Logger.getGlobal().info("permanent: "+afkNode.isPermanent());
-Logger.getGlobal().info("prefix: "+afkNode.isPrefix());
-Logger.getGlobal().info("wildcard: "+afkNode.isWildcard());
-Logger.getGlobal().info("group: "+afkNode.isGroupNode());
-Logger.getGlobal().info("meta: "+afkNode.isMeta());*/
         for(ChatColor color : ChatColor.values()) {
             if(!color.name().equals(ChatPlugin.getAfkColor())) {
                 Node tabColorNode = lpApi.buildNode(ChatPlugin.getTabColorPermission()
                                        +TabUtil.getTabColor(color.name())).setValue(false).build();
-                DataMutateResult result4 = user.setPermission(tabColorNode);
-                
-//Logger.getGlobal().info(tabColorNode.getPermission()+": "+result4.name());//+afkNode.getValue()+" - "+
+                user.setPermission(tabColorNode);
             }
         }
         lpApi.getStorage().saveUser(user); 
         user.refreshCachedData();
-//Logger.getGlobal().info("Check: ");
-//        for(Node node: user.getPermissions()) {
-//Logger.getGlobal().info(node.getPermission()+": "+!node.isNegated());
-//        }
     }
   
     public static void removeAfkLuckPerms(Player player) {
-Logger.getGlobal().info("removeAfkLuckPerms");
         LuckPermsApi lpApi = LuckPerms.getApi();
         User user = lpApi.getUser(player.getUniqueId());
         if(user == null) {
             return;
         }
-Logger.getGlobal().info("found user: "+player.getName());
         for(ChatColor color : ChatColor.values()) {
             Node tabColorNode = lpApi.buildNode(ChatPlugin.getTabColorPermission()
                                    +TabUtil.getTabColor(color.name())).build();
@@ -150,33 +132,21 @@ Logger.getGlobal().info("found user: "+player.getName());
         showAttachments(player);
         PermissionAttachment attachment = attachments.get(player.getUniqueId());
         if(attachment==null) {
-Logger.getGlobal().info("MCME-Chat adds attachment to: "+player.getName());
             attachment = player.addAttachment(ChatPlugin.getInstance());
             attachments.put(player.getUniqueId(), attachment);
         }
-Logger.getGlobal().info("MCME-Chat set permission: "+ChatPlugin.getTabColorPermission()
-                                       +TabUtil.getTabColor(ChatPlugin.getAfkColor())+"to player "+player.getName());
         attachment.setPermission(ChatPlugin.getTabColorPermission()
                                        +TabUtil.getTabColor(ChatPlugin.getAfkColor()), true);
         for(ChatColor color : ChatColor.values()) {
             if(!color.name().equals(ChatPlugin.getAfkColor())) {
                 attachment.setPermission(ChatPlugin.getTabColorPermission()+TabUtil.getTabColor(color.name()), false);
-//Logger.getGlobal().info("MCME-Chat sets permission: "+ChatPlugin.getTabColorPermission()+TabUtil.getTabColor(color.name())+" false");
             }
             //player.recalculatePermissions();
         }
     }
   
     public static void removeAfkAttachment(Player player) {
-        /*for(PermissionAttachmentInfo info: player.getEffectivePermissions()) {
-            PermissionAttachment attachment = info.getAttachment();
-Logger.getGlobal().info("attachment by: "+(attachment!=null?attachment.getPlugin():"parent"));
-            if(attachment!=null && attachment.getPlugin().equals(ChatPlugin.getInstance())) {
-                player.removeAttachment(attachment);
-            }
-        }*/
         PermissionAttachment attachment = attachments.get(player.getUniqueId());
-Logger.getGlobal().info("MCME-Chat is checking AFK attachments. ");
         if(attachment!=null) {
             player.removeAttachment(attachment);
             attachments.remove(player.getUniqueId());
@@ -185,7 +155,6 @@ Logger.getGlobal().info("MCME-Chat is checking AFK attachments. ");
                 attachment.unsetPermission(ChatPlugin.getTabColorPermission()+TabUtil.getTabColor(color.name()));
             }
             attachments.put(player.getUniqueId(), attachment);
-Logger.getGlobal().info("MCME-Chat unset AFK perms of: "+player.getName());
             player.recalculatePermissions();
             showAttachments(player);
         }
