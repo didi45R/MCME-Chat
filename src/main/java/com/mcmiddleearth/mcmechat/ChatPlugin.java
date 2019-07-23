@@ -17,9 +17,18 @@
 package com.mcmiddleearth.mcmechat;
 
 import com.mcmiddleearth.mcmechat.listener.AfkListener;
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.FileAlreadyExistsException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 import lombok.Getter;
 import me.lucko.luckperms.LuckPerms;
+import org.bukkit.configuration.InvalidConfigurationException;
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -34,9 +43,32 @@ public class ChatPlugin extends JavaPlugin{
     @Getter
     static boolean luckPerms = false;
     
+    private FileConfiguration questionsConfig;
+    
+    /**
+     *
+     */
     @Override
     public void onEnable() {
         this.saveDefaultConfig();
+        Path resource = new File(getClass().getClassLoader().getResource("questions.yml").getFile()).toPath();
+        Path questions = new File(this.getDataFolder(), "questions.yml").toPath();
+        try {
+            Files.copy(resource, questions);
+        } catch (FileAlreadyExistsException e) {
+          //do nothing
+        } catch (IOException ex) {
+            Logger.getLogger(ChatPlugin.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        File questionsConfigFile = new File(getDataFolder(), "questions.yml");
+        questionsConfig = new YamlConfiguration();
+        try {
+            questionsConfig.load(questionsConfigFile);
+        } catch (IOException | InvalidConfigurationException e) {
+            //handle the error somehow
+        }
+        
         if(getConfig().getBoolean("useLuckPerms")) {
             try {
                 LuckPerms.getApi();
@@ -47,12 +79,37 @@ public class ChatPlugin extends JavaPlugin{
         }
         getServer().getPluginManager().registerEvents(new AfkListener(), this);
         instance = this;
+        
+        getServer().getPluginManager().registerEvents(new PlayerChatHandler(), this);
     }
     
+    /**
+     *
+     * @param input
+     * @return
+     */
+    public String getAnswer(String input) {   
+    input = input.toLowerCase();
+    
+    input = input.replaceAll("\\?", "");
+    input = input.replaceAll("\\s+", "_");
+    input = input.trim();
+    String answer = questionsConfig.getString(input);
+    return answer;
+}
+    
+    /**
+     *
+     * @return
+     */
     public static String getTabColorPermission() {
         return instance.getConfig().getString("playerTabList.tabColorPermission");
     }
     
+    /**
+     *
+     * @return
+     */
     public static String getAfkColor() {
         return instance.getConfig().getString("playerTabList.afkColor");
     }

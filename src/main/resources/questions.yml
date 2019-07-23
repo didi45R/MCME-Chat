@@ -1,0 +1,530 @@
+#Section_Flight
+
+
+can_i_fly: Yes, try /fly
+can_we_fly: Yes, try /fly
+
+how_can_i_fly: Try /fly
+how_can_we_fly: Try /fly
+how_can_one_fly: Try /fly
+how_can_someone_fly: Try /fly
+how_do_i_fly: Try /fly
+how_do_you_fly: Try /fly
+how_to_fly: Try /fly
+
+is_there_a_way_to_fly: Yes, try /fly
+is_there_a_way_i_can_fly: Yes, try /fly
+is_there_a_way_we_can_fly: Yes, try /fly
+is_there_a_way_that_we_can_fly: Yes, try /fly
+is_there_a_way_that_i_can_fly: Yes, try /fly
+is_it_possible_to_fly: Yes, try /fly
+
+i_can_fly: Yes, try /fly
+we_can_fly: Yes, try /fly
+
+
+
+#Section_Helper_Map
+
+
+is_there_a_map: Yes, try /helper map
+is_there_a_map_of_the_server: Yes, try /helper map
+
+do_you_have_a_map: Yes, try /helper map
+do_you_have_a_map_of_the_server: Yes, try /helper map
+
+does_the_server_have_a_map: Yes, try /helper map
+
+can_i_get_a_map: To see the map of the server, try /helper map
+can_i_get_a_map_of_the_server: To see the map of the server, try /helper map
+
+how_can_i_get_a_map_of_the_server: To see the map of the server, try /helper map
+how_can_i_get_a_map: To see the map of the server, try /helper map
+how_can_i_see_a_map: To see the map of the server, try /helper map
+how_can_i_see_a_map_of_the_server: To see the map of the server, try /helper map
+how_do_i_get_a_map: To see the map of the server, try /helper map
+how_do_i_get_a_map_of_the_server: To see the map of the server, try /helper map
+how_to_get_a_map: To see the map of the server, try /helper map
+how_to_get_a_map_of_the_server: To see the map of the server, try /helper map
+
+where_can_i_get_a_map: To see the map of the server, try /helper map
+where_can_i_get_a_map_of_the_server: To see the map of the server, try /helper map
+where_can_i_find_a_map: To see the map of the server, try /helper map
+where_can_i_find_a_map_of_the_server: To see the map of the server, try /helper map
+where_can_i_see_a_map: To see the map of the server, try /helper map
+where_can_i_see_a_map_of_the_server: To see the map of the server, try /helper map
+
+
+
+#Section_Warp_List
+
+
+how_can_i_see_all_warps: To see all available Warps, try /warp list or /helper map
+how_to_see_all_warps: To see all available Warps, try /warp list or /helper map
+how_to_see_all_the_warps: To see all available Warps, try /warp list or /helper map
+how_can_i_see_the_warps: To see all available Warps, try /warp list or /helper map
+how_can_i_find_all_the_warps: To see all available Warps, try /warp list or /helper map
+how_can_i_find_the_warps: To see all available Warps, try /warp list or /helper map
+how_do_i_know_where_i_can_warp_to: To see all available Warps, try /warp list or /helper map
+how_do_i_see_all_the_warps: To see all available Warps, try /warp list or /helper map
+how_do_i_see_the_warps: To see all available Warps, try /warp list or /helper map
+how_can_i_see_all_the_warps_that_we_can_go_to: To see all available Warps, try /warp list or /helper map
+how_can_i_see_all_the_warps_that_i_can_go_to: To see all available Warps, try /warp list or /helper map
+how_can_i_see_the_warps_that_we_can_go_to: To see all available Warps, try /warp list or /helper map
+how_can_i_see_the_warps_that_i_can_go_to: To see all available Warps, try /warp list or /helper map
+how_to_see_the_warps_that_i_can_go_to: To see all available Warps, try /warp list or /helper map
+how_to_see_the_warps_that_we_can_go_to: To see all available Warps, try /warp list or /helper map
+
+where_can_i_warp_to: To see all available Warps, try /warp list or /helper map
+where_can_i_teleport_to: To see all available Warps, try /warp list or /helper map
+where_can_i_tp_to: To see all available Warps, try /warp list or /helper map
+where_can_we_warp_to: To see all available Warps, try /warp list or /helper map
+where_can_we_teleport_to: To see all available Warps, try /warp list or /helper map
+where_can_we_tp_to: To see all available Warps, try /warp list or /helper map
+
+which_places_can_i_warp_to: To see all available Warps, try /warp list or /helper map
+which_places_can_i_teleport_to: To see all available Warps, try /warp list or /helper map
+which_places_can_i_tp_to: To see all available Warps, try /warp list or /helper map
+which_locations_can_i_warp_to: To see all available Warps, try /warp list or /helper map
+which_locations_can_i_teleport_to: To see all available Warps, try /warp list or /helper map
+which_locations_can_i_tp_to: To see all available Warps, try /warp list or /helper map
+which_places_can_we_warp_to: To see all available Warps, try /warp list or /helper map
+which_places_can_we_teleport_to: To see all available Warps, try /warp list or /helper map
+which_places_can_we_tp_to: To see all available Warps, try /warp list or /helper map
+which_locations_can_we_warp_to: To see all available Warps, try /warp list or /helper map
+which_locations_can_we_teleport_to: To see all available Warps, try /warp list or /helper map
+which_locations_can_we_tp_to: To see all available Warps, try /warp list or /helper map
+
+is_there_a_way_to_see_all_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_to_see_all_of_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_to_see_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_to_see_all_of_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_for_me_to_see_all_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_for_me_to_see_all_of_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_for_me_to_see_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_for_us_to_see_all_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_for_us_to_see_all_of_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_for_us_to_see_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_to_find_all_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_to_find_all_of_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_to_find_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_for_me_to_find_all_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_for_me_to_find_all_of_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_for_me_to_find_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_for_us_to_find_all_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_way_for_us_to_find_all_of_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_warps: Yes, to see all available Warps, try /warp list or /helper map
+
+is_there_a_list_of_all_the_places_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_places_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_places_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_places_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_places_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_places_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+
+is_there_a_list_of_all_the_places_that_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_that_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_that_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_that_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_places_that_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_that_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_that_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_that_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_places_that_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_that_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_that_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_that_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_places_that_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_that_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_that_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_that_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_places_that_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_that_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_that_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_that_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_places_that_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_places_that_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_places_that_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_places_that_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+
+is_there_a_list_of_all_the_locations_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_locations_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_locations_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_locations_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_locations_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_locations_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+
+is_there_a_list_of_all_the_locations_that_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_that_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_that_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_that_i_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_locations_that_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_that_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_that_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_that_i_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_locations_that_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_that_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_that_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_that_i_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_locations_that_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_that_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_that_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_that_we_can_warp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_locations_that_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_that_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_that_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_that_we_can_teleport_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_the_locations_that_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_all_of_the_locations_that_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_the_locations_that_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+is_there_a_list_of_locations_that_we_can_tp_to: Yes, to see all available Warps, try /warp list or /helper map
+
+what_are_all_the_warps: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_warps: To see all available Warps, try /warp list or /helper map
+what_are_the_warps: To see all available Warps, try /warp list or /helper map_
+what_are_all_the_places_i_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_places_i_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_places_i_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_places_we_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_places_we_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_places_we_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_i_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_i_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_i_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_we_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_we_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_we_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_places_that_i_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_places_that_i_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_places_that_i_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_places_that_we_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_places_that_we_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_places_that_we_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_that_i_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_that_i_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_that_i_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_that_we_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_that_we_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_the_places_that_we_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_places_can_i_warp_to: To see all available Warps, try /warp list or /helper map
+what_places_can_i_teleport_to: To see all available Warps, try /warp list or /helper map
+what_places_can_i_tp_to: To see all available Warps, try /warp list or /helper map
+what_places_can_we_warp_to: To see all available Warps, try /warp list or /helper map
+what_places_can_we_teleport_to: To see all available Warps, try /warp list or /helper map
+what_places_can_we_tp_to: To see all available Warps, try /warp list or /helper map
+what_locations_can_i_warp_to: To see all available Warps, try /warp list or /helper map
+what_locations_can_i_teleport_to: To see all available Warps, try /warp list or /helper map
+what_locations_can_i_tp_to: To see all available Warps, try /warp list or /helper map
+what_locations_can_we_warp_to: To see all available Warps, try /warp list or /helper map
+what_locations_can_we_teleport_to: To see all available Warps, try /warp list or /helper map
+what_locations_can_we_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_locations_that_i_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_locations_that_i_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_the_locations_that_i_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_locations_that_i_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_locations_that_i_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_locations_that_i_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_locations_that_we_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_the_locations_that_we_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_the_locations_that_we_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_locations_that_we_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_locations_that_we_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_all_the_locations_that_we_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_places_that_i_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_places_that_i_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_places_that_i_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_places_that_we_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_places_that_we_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_places_that_we_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_locations_that_i_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_locations_that_i_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_locations_that_i_can_tp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_locations_that_we_can_warp_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_locations_that_we_can_teleport_to: To see all available Warps, try /warp list or /helper map
+what_are_all_of_the_locations_that_we_can_tp_to: To see all available Warps, try /warp list or /helper map
+
+
+
+#Section_Discord
+
+
+what_is_the_discord: Here you go, https://discord.gg/f3peqdZ
+whats_the_discord: Here you go, https://discord.gg/f3peqdZ
+what_is_the_discord_link: Here you go, https://discord.gg/f3peqdZ
+whats_the_discord_link: Here you go, https://discord.gg/f3peqdZ
+
+is_there_a_discord_server: Yes, https://discord.gg/f3peqdZ
+do_you_have_a_discord_server: Yes, https://discord.gg/f3peqdZ
+does_the_server_have_a_discord_server: Yes, https://discord.gg/f3peqdZ
+
+can_i_have_a_invite_to_discord_server: Here you go, https://discord.gg/f3peqdZ
+can_i_have_the_link_to_the_discord_server: Here you go, https://discord.gg/f3peqdZ
+can_i_have_the_discord_server_link: Here you go, https://discord.gg/f3peqdZ
+can_i_get_the_discord_link: Here you go, https://discord.gg/f3peqdZ
+can_i_have_the_discord_link: Here you go, https://discord.gg/f3peqdZ
+can_i_get_the_discord_server_link: Here you go, https://discord.gg/f3peqdZ
+can_i_get_the_invite_to_the_discord_server: Here you go, https://discord.gg/f3peqdZ
+can_someone_give_me_the_discord_link: Here you go, https://discord.gg/f3peqdZ
+
+how_can_i_get_the_discord_server_invite_link: Here you go, https://discord.gg/f3peqdZ
+how_can_i_get_the_discord_server_link: Here you go, https://discord.gg/f3peqdZ
+how_can_i_get_the_discord_server_invite: Here you go, https://discord.gg/f3peqdZ
+
+how_can_i_join_the_discord_server: Join with this link, https://discord.gg/f3peqdZ
+how_do_i_join_the_discord_server: Join with this link, https://discord.gg/f3peqdZ
+
+
+
+#Section_FBT
+
+
+is_there_a_way_to_see_in_the_dark: Yes, try /fbt
+is_there_a_way_i_can_see_in_the_dark: Yes, try /fbt
+is_there_nightvision: Yes, try /fbt
+is_there_night_vision: Yes, try /fbt
+is_there_a_way_for_me_to_see_in_the_dark: Yes, try /fbt
+is_there_a_way_that_i_can_see_in_the_dark: Yes, try /fbt
+is_there_a_way_to_make_it_less_dark: Yes, try /fbt
+is_there_nightvision_potion: Yes, try /fbt
+is_there_night_vision_potion: Yes, try /fbt
+is_there_a_night_vision_potion: Yes, try /fbt
+is_there_a_nightvision_potion: Yes, try /fbt
+is_there_a_way_to_get_nightvision_potion: Yes, try /fbt
+is_there_a_way_to_get_night_vision_potion: Yes, try /fbt
+is_there_a_way_to_get_a_nightvision_potion: Yes, try /fbt
+is_there_a_way_to_get_a_night_vision_potion: Yes, try /fbt
+
+how_can_i_see_in_the_dark: Try /fbt
+how_can_i_get_nightvision: Try /fbt
+how_can_i_get_night_vision: Try /fbt
+how_can_we_see_in_the_dark: Try /fbt
+how_to_see_in_the_dark: Try /fbt
+how_to_get_nightvision: Try /fbt
+how_to_get_night_vision: Try /fbt
+how_to_make_it_less_dark: Try /fbt
+how_do_i_see_in_the_dark: Try /fbt
+how_to_get_nightvision_potion: Try /fbt
+how_to_get_night_vision_potion: Try /fbt
+how_to_get_a_nightvision_potion: Try /fbt
+how_to_get_a_night_vision_potion: Try /fbt
+how_can_i_get_nightvision_potion: Try /fbt
+how_can_i_get_night_vision_potion: Try /fbt
+how_can_i_get_a_nightvision_potion: Try /fbt
+how_can_i_get_a_night_vision_potion: Try /fbt
+
+its_really_dark_here: Try /fbt
+its_really_dark: Try /fbt
+its_dark_here: Try /fbt
+its_dark: Try /fbt
+its_very_dark_here: Try /fbt
+its_very_dark: Try /fbt
+its_too_dark_here: Try /fbt
+
+i_cant_see_in_the_dark: Try /fbt
+i_cant_see_in_this_dark: Try /fbt
+
+why_is_moria_so_dark: Try /fbt
+how_can_i_see_in_moria: Try /fbt
+moria_is_very_dark: Try /fbt
+moria_is_dark: Try /fbt
+why_is_it_so_dark_in_moria: Try /fbt
+why_is_it_dark_in_moria: Try /fbt
+how_can_i_light_up_moria: Try /fbt
+
+can_i_have_nightvision: Yes, try /fbt
+can_i_have_night_vision: Yes, try /fbt
+can_i_see_in_the_dark: Yes, try /fbt
+can_i_get_nightvision: Yes, try /fbt
+can_i_get_night_vision: Yes, try /fbt
+can_i_get_nightvision_potion: Yes, try /fbt
+can_i_get_night_vision_potion: Yes, try /fbt
+can_i_get_a_nightvision_potion: Yes, try /fbt
+can_i_get_a_night_vision_potion: Yes, try /fbt
+can_i_have_nightvision_potion: Yes, try /fbt
+can_i_have_night_vision_potion: Yes, try /fbt
+can_i_have_a_nightvision_potion: Yes, try /fbt
+can_i_have_a_night_vision_potion: Yes, try /fbt
+
+
+
+#Section_Fast_Travel
+
+
+how_can_i_warp: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_warp: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_warp_to_somewhere_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_warp_to_a_location: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_warp_to_a_location_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_warp_to_a_place: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_warp_to_a_place_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_teleport_to_somewhere: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_teleport_to_somewhere_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_teleport_to_a_location: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_teleport_to_a_location_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_teleport_to_a_place: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_do_i_teleport_to_a_place_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_warp: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_warp_to_somewhere: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_warp_to_somwehre_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_warp_to_somewhere: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_warp_to_somewhere_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_warp_to_a_location: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_warp_to_a_location_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_warp_to_a_place: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_warp_to_a_place_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_teleport_to_somwhere: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_teleport_to_somewhere_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_teleport_to_a_place: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_teleport_to_a_place_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_teleport_to_a_location: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_can_i_teleport_to_a_location_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_warp_to_a_location: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_warp_to_a_location_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_warp_to_a_place: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_warp_to_a_place_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_teleport_to_somewhere: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_teleport_to_somewhere_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_teleport_to_a_location: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_teleport_to_a_location_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_teleport_to_a_place: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_teleport_to_a_place_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_tp_to_somewhere: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_tp_to_somewhere_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_tp_to_a_location: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_tp_to_a_location_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_tp_to_a_place: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+how_to_tp_to_a_place_in_the_server: Try /warp <placename> and to find all the warps, try /warp list or /helper map
+
+can_i_warp: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_warp_to_somewhere: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_warp_to_somewhere_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_warp_to_a_location: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_warp_to_a_location_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_warp_to_a_place: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_warp_to_a_place_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_teleport_to_somewhere: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_teleport_to_somewhere_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_teleport_to_a_location: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_teleport_to_a_location_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_teleport_to_a_place: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_teleport_to_a_place_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_tp_to_somewhere: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_tp_to_somewhere_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_tp_to_a_location: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_tp_to_a_location_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_tp_to_a_place: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+can_i_tp_to_a_place_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+
+can_i_teleport: Yes, to teleport to a player, try /tpa <playername> and to teleport to a location try /warp <placename>
+how_do_i_teleport: To teleport to a player, try /tpa <playername> and to teleport to a location try /warp <placename>
+can_i_tp: Yes, to teleport to a player, try /tpa <playername> and to teleport to a location try /warp <placename>
+how_do_i_tp: To teleport to a player, try /tpa <playername> and to teleport to a location try /warp <placename>
+how_to_tp: Yes, to teleport to a player, try /tpa <playername> and to teleport to a location try /warp <placename>
+how_to_teleport: Yes, to teleport to a player, try /tpa <playername> and to teleport to a location try /warp <placename>
+
+is_there_a_way_to_warp: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_warp_to_somewhere: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_warp_to_somewhere_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_warp_to_a_location: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_warp_to_a_location_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_warp_to_a_place: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_warp_to_a_place_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_teleport: Yes, to teleport to a player, try /tpa <playername> and to teleport to a location try /warp <placename>
+is_there_a_way_to_teleport_to_somewhere: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_teleport_to_somewhere_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_teleport_to_a_location: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_teleport_to_a_location_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_teleport_to_a_place: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_teleport_to_a_place_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_tp: Yes, to teleport to a player, try /tpa <playername> and to teleport to a location try /warp <placename>
+is_there_a_way_to_tp_to_somewhere: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_tp_to_somewhere_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_tp_to_a_location: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_tp_to_a_location_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_tp_to_a_place: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+is_there_a_way_to_tp_to_a_place_in_the_server: Yes, try /warp <placename> and to find all the warps, try /warp list or /helper map
+
+
+
+#Section_Explore
+
+
+how_can_i_explore_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_explore: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_do_i_explore_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_do_i_explore: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_to_explore_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_to_explore: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_travel_around_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_to_travel_around_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_do_i_get_around_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_do_i_get_around_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_do_i_explore_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_to_explore_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_explore_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_get_around_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_to_get_around_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_get_around_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_to_get_around_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_get_to_places_in_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_get_to_locations_in_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_get_to_somewhere_in_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_go_to_places_in_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_go_to_locations_in_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_go_to_somewhere_in_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_get_to_places_around_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_get_to_locations_around_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_get_to_somewhere_around_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_do_i_navigate_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_do_i_navigate_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_can_i_travel_around_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+how_do_i_travel_around_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+
+can_i_explore_the_map: Yes, you can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+can_i_travel_around_the_map: Yes, you can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+
+what_is_the_best_way_to_explore_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+whats_the_best_way_to_explore_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+what_is_the_best_way_to_explore_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+whats_the_best_way_to_explore_the_server: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+what_is_the_best_way_to_explore: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+whats_the_best_way_to_explore: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
+what_is_the_best_way_to_travel_around_the_map: You can walk around, Fly (with /fly) or Warp (with /warp <placename>)
